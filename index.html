@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test page</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+</head>
+<body background="https://www.itl.cat/pngfile/big/157-1572191_hd-wallpapers-for-website-background-cool-background-image.jpg" align="center">
+
+<div class="whats-ap">
+       <a class="whats-ap" href="https://api.whatsapp.com/send?phone=918921652532"><div class="tooltip"><img src="images/wp.png" width="50" height="50" style="position: absolute;top: 560px;left: 1295px" ><span class="tooltiptext">Chat with us.</span>
+</div></a>
+ 
+    </div>
+
+
+<div id="popupMain" style="display: none;">
+	<div id="popup">
+		<h1 id="newsHeading">POP-UP's Ready : )</h1>	
+		<button class="submitId">Close</button>
+	</div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	setTimeout(function(){
+		$('#popupMain').css('display','block'); },1000);
+});
+$('.submitId').click(function(){
+	$('#popupMain').css('display','none');
+
+})
+
+
+</script>
+
+
+
+</body>
+</html>
