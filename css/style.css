@@ -1,0 +1,78 @@
+*{ 
+  padding: 0;
+  margin: 0;
+}
+
+#popUpMain{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background:rgba(0,0,0,0.6);
+  z-index: 1001;
+  font-family: 'Slabo 27px', serif;
+}
+
+#popup{
+  width: 500px;
+  height: 250px;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('http://www.thushhaara.com/india/media_library/original_thushhaara-banner-ko7ufi.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 2px 5px 3px white;
+  text-align: center;
+}
+
+#newsHeading{
+  transform: translateY(50px);
+  color: white;
+  font-family: 'Slabo 27px', serif;
+}
+.submitId{
+  background-color: #0fc0fa;
+  border:none;
+  position: absolute;
+  left: 200px;
+  top: 180px;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  color: white;
+  font-family: 'Slabo 27px', serif;
+}
+
+.whats-ap{
+
+    position: fixed;
+    
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: visible;
+  width: 120px;
+  background-color: #00e600;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 3px 0;
+  position: absolute;
+  left: 1168px;
+  top: 574px;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  background-color: #004d00;
+  visibility: visible;
+}
